@@ -1,0 +1,23 @@
+library(TCGAbiolinks)
+
+TCGAVisualize_volcano(results$MethylationDifference, results$rawpvalue, 
+                      filename = "",
+                      ylab = "Raw P-Values",
+                      xlab = "Methylation Difference", 
+                      #title = "Treated vs Untreated, outlier excluded", 
+                      legend = "Sample", 
+                      label = c("Not Significant", "Hypermethylated", "Hypomethylated"), 
+                      xlim = NULL,
+                      ylim = NULL, 
+                      color = c("black", "orange", "blue"), 
+                      names = rownames(ret),
+                      names.fill = FALSE, 
+                      show.names = "significant", 
+                      x.cut = 0.1,
+                      y.cut = 0.0005,
+                      height = 5, 
+                      width = 10, 
+                      #highlight = CellCycleProbes_3_6_17$G1b ,
+                      highlight.color = "red", 
+                      names.size = 0, 
+                      dpi = 300)
