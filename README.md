@@ -5,3 +5,8 @@ This respository holds the code for most of the methylation related plots in our
 Some formatting and labeling was done in Adobe Illustrator for appropriate font sizing and clarity.
 
 https://doi.org/10.1186/s13046-022-02440-z
+
+WGBS Data Available Here:
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202245
+
+RNAseq Data will be released with coming publication
